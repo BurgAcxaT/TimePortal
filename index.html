@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Портал во времени</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>🌌 Портал во времени 🌌</h1>
+    
+    <div class="portal-container">
+        <section class="epoch egypt">
+            <div class="bg-img"></div>
+            <div class="overlay">
+                <h2>Древний Египет</h2>
+                <p>Ты входишь в мир песков, пирамид и богов. Почувствуй дыхание вечности.</p>
+                <button class="enter-btn"><span>Войти</span></button>
+            </div>
+        </section>
+
+        <section class="epoch victoria">
+            <div class="bg-img"></div>
+            <div class="overlay">
+                <h2>Викторианская Англия</h2>
+                <p>Туман стелется по Лондону, фонари освещают мощёные дороги. Загадки прошлого ждут тебя.</p>
+                <button class="enter-btn"><span>Войти</span></button>
+            </div>
+        </section>
+
+        <section class="epoch cyberpunk">
+            <div class="bg-img"></div>
+            <div class="overlay">
+                <h2>Футуристический Киберпанк</h2>
+                <p>Неон режет тьму, технологии правят городом. Добро пожаловать в будущее, где реальность глючит.</p>
+                <button class="enter-btn"><span>Войти</span></button>
+            </div>
+        </section>
+    </div>
+
+    <div class="modal" id="modal">
+        <div class="modal-content">
+            <h3 id="modal-title">Добро пожаловать!</h3>
+            <p id="modal-text">Ты вошёл в эпоху</p>
+            <button class="close-btn" onclick="closeModal()">Закрыть</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
